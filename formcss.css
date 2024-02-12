@@ -32,13 +32,29 @@
     .dropdown{
         padding: 12px;
         padding-right: 30px;
+        padding-left: 20px;
         font-size: 15px;
     }
     .textbox{
+        border-radius:12px;
         font-size: 17px;
     }
     .submit{
         margin-top: 25px;
         padding: 14px;
         height: 50px;
+    }
+
+    .selectWrapper{
+        border-radius:36px;
+        display:inline-block;
+        overflow:hidden;
+        background:#cccccc;
+        border:1px solid #cccccc;
+      }
+    .dropdown{
+        width:200px;
+        height:40px;
+        border:0px;
+        outline:none;
     }
