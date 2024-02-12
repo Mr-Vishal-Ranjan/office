@@ -1,0 +1,44 @@
+.form{
+        text-align: center;
+        margin-top: 75px;
+        border: 1px solid black;
+        margin-left: 30%;
+        margin-right: 30%;
+        box-shadow: 10px 10px 30px lightblue;
+    }
+
+    h1{
+        margin-top: 0%;
+        text-align: center;
+        background-color:rgb(3,169,244) ;
+        color: white;
+        padding:14px;
+    }
+
+    .head{
+        padding-top: 40px;
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .radiobtn{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    .goal{
+        padding-top: 50px;
+    }
+
+    .dropdown{
+        padding: 12px;
+        padding-right: 30px;
+        font-size: 15px;
+    }
+    .textbox{
+        font-size: 17px;
+    }
+    .submit{
+        margin-top: 25px;
+        padding: 14px;
+        height: 50px;
+    }
