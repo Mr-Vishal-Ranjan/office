@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+// import  React, { useState } from 'react'
+import { useState } from 'react';
 
 const user = {
   name: 'Hedy Lamarr',
@@ -13,18 +15,17 @@ const products = [
   { title: 'Apple', isFruit: true, id: 3 },
 ];
 
-function MyBtn(){
-  let count = 0;
+function MyBtn() {
+  const [count, setCount] = useState(0);
+
   function handleClick() {
-    count++;
-    console.log(count);
+    setCount(count + 1);
   }
 
-  return(
-    <button onClick={handleClick()}>
+  return (
+    <button onClick={handleClick}>
       Clicked {count} times
     </button>
-
   );
 }
 
