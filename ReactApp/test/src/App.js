@@ -13,6 +13,21 @@ const products = [
   { title: 'Apple', isFruit: true, id: 3 },
 ];
 
+function MyBtn(){
+  let count = 0;
+  function handleClick() {
+    count++;
+    console.log(count);
+  }
+
+  return(
+    <button onClick={handleClick()}>
+      Clicked {count} times
+    </button>
+
+  );
+}
+
 export default function App(){
   const listItems = products.map(product =>
     <li
@@ -25,15 +40,21 @@ export default function App(){
     </li>
   );
 
+
   return (
-    <ul>{listItems}</ul>
+    <div>
+      <ul>{listItems}</ul>
+      
+      <div>
+        <h1>{user.name}</h1>
+        <img src={user.imageUrl} alt={user.name} style={{
+           padding:10,borderRadius:50,
+         }}/>
+      </div>
+      <MyBtn />
+      <MyBtn />
+    </div>
+
+    
   );
-  // return (
-  //   <div>
-  //   <h1>{user.name}</h1>
-  //   <img src={user.imageUrl} alt={user.name} style={{
-  //         padding:10,borderRadius:50,
-  //       }}/>
-  //   </div>
-  // );
 }
