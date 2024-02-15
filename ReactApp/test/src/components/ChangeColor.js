@@ -25,7 +25,6 @@ const Blu = () => {
         </div>
         <Timer/>
       </div>
-      
     );
 }
 
