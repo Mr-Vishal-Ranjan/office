@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
 import Timer from './Timer';
+import Props from './Props';
+import Time from './Time';
 
 const Blu = () => {
     const[cl,setColor] = useState("blue")
@@ -23,7 +25,9 @@ const Blu = () => {
            {console.log(cl)}
          </button>
         </div>
-        <Timer/>
+        <Time/>
+        {/* <Timer/> */}
+        <Props name='Vishal' age='20'/>
       </div>
     );
 }

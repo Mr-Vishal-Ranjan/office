@@ -3,6 +3,9 @@ import { useState , useEffect} from 'react';
 
 const Timer = () => {
     const[count,setCount]=useState(0);
+    if(count===101){
+      setCount(0);
+    }
     useEffect(
       ()=>{
         setTimeout(() => {

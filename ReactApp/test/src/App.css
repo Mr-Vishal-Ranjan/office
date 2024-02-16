@@ -1,5 +1,5 @@
 .timmer{
-    font-size: 82px;
+    font-size: 80px;
     color: aqua;
     position: absolute;
     bottom: 25%;
@@ -8,6 +8,8 @@
 }
 
 .btn{
+    font-weight: bold;
+    background-color: aquamarine;
     height: 100px;
     width: 300px;
     font-size: 25px;
@@ -30,4 +32,13 @@
     /* display: flex;
     justify-content: center;
     align-items: center; */
+}
+
+.props{
+    position: absolute;
+    top: 30%;
+    left: 51%;
+    transform: translate(-50% , -50%);
+    color: aqua;
+    font-size: 40px;
 }
