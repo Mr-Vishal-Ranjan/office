@@ -26,7 +26,7 @@ const Blu = () => {
          </button>
         </div>
         <Time/>
-        {/* <Timer/> */}
+        <Timer/>
         <Props name='Vishal' age='20'/>
       </div>
     );

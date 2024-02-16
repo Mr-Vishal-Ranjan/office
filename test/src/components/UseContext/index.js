@@ -5,6 +5,7 @@ const UseContext = () => {
 
     function Component1(){
         const [user,setUser] = useState("Vishal");
+        // setUser(user);
 
         return(
             <VContext.Provider value={user}>
@@ -25,9 +26,9 @@ const UseContext = () => {
         );
     }
   return (
-    <div>
+    <>
         <Component1/>
-    </div>
+    <>
   )
 }
 
